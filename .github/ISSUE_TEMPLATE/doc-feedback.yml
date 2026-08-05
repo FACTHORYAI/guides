@@ -1,0 +1,62 @@
+name: Documentation feedback
+description: Report an error, gap, or unclear step in a customer guide
+title: "Docs feedback: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Facthory guides.
+
+        **Editorial source of truth is Notion.** Maintainers apply accepted feedback there; this repository is a read-only Markdown mirror. Please do not open a PR to rewrite guide bodies.
+
+        Canonical site: https://facthory.com/resource/documentation/
+  - type: input
+    id: slug
+    attributes:
+      label: Doc slug or GitHub path
+      description: e.g. getting-started or docs/getting-started/getting-started.md
+      placeholder: docs/section/slug.md
+    validations:
+      required: true
+  - type: input
+    id: canonical
+    attributes:
+      label: Canonical marketing URL (optional)
+      description: If you have it from the website
+      placeholder: https://facthory.com/resource/documentation/getting-started/
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: Feedback type
+      options:
+        - Typo or wording
+        - Missing step or incomplete guide
+        - Incorrect information
+        - Unclear / hard to follow
+        - Request for a new guide
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong or unclear?
+      description: Describe the issue. Do not paste secrets, tokens, or customer data.
+      placeholder: Steps I took… Expected… Actual…
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested improvement (optional)
+      description: Optional rewrite or outline. Maintainers will adapt in Notion.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This issue does not contain secrets, tokens, or private customer data
+          required: true
+        - label: I understand guide content is edited in Notion, not via pull requests to this repo
+          required: true

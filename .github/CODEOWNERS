@@ -1,0 +1,5 @@
+# Default owners for the guides mirror (meta + export layout).
+*       @FACTHORYAI/docs @FACTHORYAI/platform
+
+# Prefer issues over content PRs for docs/**
+/docs/  @FACTHORYAI/docs
