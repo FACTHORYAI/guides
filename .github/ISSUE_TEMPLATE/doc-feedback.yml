@@ -1,16 +1,8 @@
 name: Documentation feedback
-description: Report an error, gap, or unclear step in a customer guide
-title: "Docs feedback: "
-labels: ["documentation"]
+description: Report an error or gap in a customer guide (Notion is source of truth)
+title: 'Docs feedback: '
+labels: [documentation]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for helping improve Facthory guides.
-
-        **Editorial source of truth is Notion.** Maintainers apply accepted feedback there; this repository is a read-only Markdown mirror. Please do not open a PR to rewrite guide bodies.
-
-        Canonical site: https://facthory.com/resource/documentation/
   - type: input
     id: slug
     attributes:
@@ -22,41 +14,12 @@ body:
   - type: input
     id: canonical
     attributes:
-      label: Canonical marketing URL (optional)
-      description: If you have it from the website
+      label: Canonical marketing URL
       placeholder: https://facthory.com/resource/documentation/getting-started/
-  - type: dropdown
-    id: feedback_type
-    attributes:
-      label: Feedback type
-      options:
-        - Typo or wording
-        - Missing step or incomplete guide
-        - Incorrect information
-        - Unclear / hard to follow
-        - Request for a new guide
-        - Other
-    validations:
-      required: true
   - type: textarea
     id: details
     attributes:
       label: What is wrong or unclear?
-      description: Describe the issue. Do not paste secrets, tokens, or customer data.
-      placeholder: Steps I took… Expected… Actual…
+      description: Maintainers apply fixes in Notion — do not open a PR to edit markdown here.
     validations:
       required: true
-  - type: textarea
-    id: suggested_fix
-    attributes:
-      label: Suggested improvement (optional)
-      description: Optional rewrite or outline. Maintainers will adapt in Notion.
-  - type: checkboxes
-    id: confirmations
-    attributes:
-      label: Confirmations
-      options:
-        - label: This issue does not contain secrets, tokens, or private customer data
-          required: true
-        - label: I understand guide content is edited in Notion, not via pull requests to this repo
-          required: true
