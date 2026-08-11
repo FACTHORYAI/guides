@@ -12,3 +12,11 @@ Prod · Release cutover refreshes this mirror.
 ## getting-started
 
 - [Getting started with Facthory](docs/getting-started/getting-started.md) — [web](https://facthory.com/resource/documentation/getting-started/)
+
+## integrations
+
+- [Email Intelligence: what it does for you](docs/integrations/email-overview.md) — [web](https://facthory.com/resource/documentation/email-overview/)
+- [Connect your Outlook mailbox](docs/integrations/connect-outlook.md) — [web](https://facthory.com/resource/documentation/connect-outlook/)
+- [Search and ask your mailbox](docs/integrations/email-search-and-assistant.md) — [web](https://facthory.com/resource/documentation/email-search-and-assistant/)
+- [Priorities, smart replies and your writing tone](docs/integrations/email-priorities-and-replies.md) — [web](https://facthory.com/resource/documentation/email-priorities-and-replies/)
+- [Rules and automations](docs/integrations/email-rules-and-automations.md) — [web](https://facthory.com/resource/documentation/email-rules-and-automations/)

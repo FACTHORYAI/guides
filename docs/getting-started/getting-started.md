@@ -10,8 +10,6 @@ canonical: https://facthory.com/resource/documentation/getting-started/
 
 > Create your Facthory account, set up a workspace, invite your team, choose a plan, and take your first steps with knowledge and multiplayer agents.
 
-> Customer-facing guide. Edit in Notion; facthory.com and FACTHORYAI/guides mirror Published content only. Replace placeholder images with product screenshots before wide release.
-
 ## Welcome to Facthory
 
 Facthory is an operational intelligence platform. Your team can capture knowledge from documents and video, ask grounded questions with evidence, and collaborate with multiplayer AI agents on everyday operational work.
