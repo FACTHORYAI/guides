@@ -16,8 +16,6 @@ canonical: https://facthory.com/resource/documentation/email-search-and-assistan
 
 Once your mailbox is connected, Facthory gives you two complementary ways to work: **smart search** to locate messages precisely, and a **grounded assistant** that answers questions using your actual threads.
 
-![Replace: Email search bar and results](https://placehold.co/1200x675/1a1a2e/eaeaea?text=Replace%3A+Email+search)
-
 ## Smart search
 
 Search understands both keywords and meaning, and it combines them with precise filters:
@@ -29,8 +27,6 @@ Search understands both keywords and meaning, and it combines them with precise 
 - **By time, status, and attachments.** Narrow to a date range, read or unread, has-attachments, or sent versus received.
 
 > Combine filters. For example, search a person plus a topic plus this month to jump straight to the thread you have in mind.
-
-![Replace: Search filters (person, date, attachments)](https://placehold.co/1200x675/16213e/eaeaea?text=Replace%3A+Search+filters)
 
 ## Ask your mailbox
 
@@ -44,13 +40,9 @@ Open the assistant in Email mode and ask in plain language, for example:
 
 Answers are **grounded** in your real messages: the assistant cites the emails it used, so you can trust and verify every response. It never invents senders, dates, or content.
 
-![Replace: Grounded answer with cited emails](https://placehold.co/1200x675/0f3460/eaeaea?text=Replace%3A+Grounded+answer)
-
 ## See the full thread
 
 Any message opens in a **thread view** that shows the full conversation, oldest to newest, so you have complete context before you act. From a search result or an assistant citation, one click takes you to the whole exchange.
-
-![Replace: Thread drawer with full conversation](https://placehold.co/1200x675/533483/eaeaea?text=Replace%3A+Thread+view)
 
 ## Move smoothly from finding to doing
 

@@ -16,8 +16,6 @@ canonical: https://facthory.com/resource/documentation/email-priorities-and-repl
 
 Facthory reads the signals in your inbox so the right mail rises to the top — and, crucially, tells you *why*.
 
-![Replace: Prioritized inbox with reply-urgency bands](https://placehold.co/1200x675/16213e/eaeaea?text=Replace%3A+Reply-urgency+bands)
-
 ## Reply-urgency at a glance
 
 Messages that are genuinely waiting on you are grouped into three clear bands:
@@ -44,8 +42,6 @@ Great replies sound like *you*. Facthory can learn your voice from your own rece
 
 Your tone captures things like formality, length, whether you use em dashes, and your bullet style.
 
-![Replace: Tone card with captured writing style](https://placehold.co/1200x675/0f3460/eaeaea?text=Replace%3A+Tone+card)
-
 ## Draft a reply in your voice
 
 1. Open a thread that needs a response (from the inbox, search, or the assistant).
@@ -57,8 +53,6 @@ Your tone captures things like formality, length, whether you use em dashes, and
 1. Review and edit anything you like.
 
 1. Save it to your Outlook Drafts, or — if your workspace allows sending — send it. Either way, nothing goes out until you approve it.
-
-![Replace: Draft reply review with tone and signature](https://placehold.co/1200x675/533483/eaeaea?text=Replace%3A+Draft+reply+review)
 
 ## Signatures
 
